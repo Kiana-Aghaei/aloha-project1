@@ -1,0 +1,331 @@
+
+body {
+    font-family: "Raleway-Light";
+    font-size: 18px;
+    overflow-x: hidden !important;
+}
+.header {
+    overflow: hidden;
+}
+.mostloved div {
+    display: inline-block;
+}
+.mostloved h1 {
+  text-align: center;
+
+}
+.mostloved h3 {
+    color: #e2574c;
+    font-family: "Raleway-Light";
+    font-size: 1.2em;
+}
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/playfair-display/orginal/PlayfairDisplay-Regular.otf") format("truetype");
+}
+@font-face {
+    font-family: "Raleway-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/raleway/transformed/trans/Raleway-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/transformed/trans/Raleway-Light.woff") format("woff"), url("../fonts/raleway/transformed/trans/Raleway-Light.ttf") format("truetype");
+}
+.banner {
+    background-attachment: scroll, scroll;
+    background-clip: border-box, border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
+    background-origin: padding-box, padding-box;
+    background-position: center 60px, 0 0;
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+    height: 31em;
+    margin-top: 0;
+    position: relative;
+}
+.banner-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(0px, -50%);
+    width: 100%;
+}
+@font-face {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-weight: normal;
+    src: url("PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"), url("PlayfairDisplay-Italic.woff") format("woff"), url("PlayfairDisplay-Italic.ttf") format("truetype");
+}
+.collection {
+    color: #ffffff;
+    font-size: 30px;
+}
+.season {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: normal;
+}
+section h1 {
+    font-family: "PlayfairDisplay-Regular";
+}
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+}
+.logo {
+    float: left;
+}
+.logo a {
+}
+.logo a img {
+    padding: 10px 0;
+    width: 170px;
+}
+.cart {
+    float: right;
+    margin-top: 0;
+}
+.cart a {
+}
+.cart a img {
+    padding: 10px 0;
+    width: 65px;
+}
+.product-list {
+    margin-bottom: 30px;
+}
+.product-list ul {
+    margin: 0;
+    padding: 0;
+}
+.product-list ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.product-list ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.product-list ul li a {
+    text-decoration: none;
+}
+.product-list ul li a p {
+    color: #999;
+    font-size: 13px;
+    padding: 0 0 7px;
+}
+.product-list ul li a h3 {
+    color: #e2574c;
+    font-size: 1.2em;
+    padding: 0 0 7px;
+}
+.product-list ul li a img {
+    max-width: 100%;
+}
+.footer {
+    background-color: #242424;
+    border-top: 5px solid #fff;
+    padding: 35px 0;
+    width: 100%;
+}
+.paragraph {
+    color: #fff;
+    text-align: center;
+}
+.crafted {
+    line-height: 2.5;
+    text-align: center;
+}
+.footer-address {
+    float: left;
+}
+.footer-social {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    text-align: right;
+}
+.crafted {
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 24px;
+}
+.footer-text {
+    color: #fff;
+    padding: 15px 0;
+}
+.social {
+    list-style: outside none none;
+}
+.social li {
+    direction: ltr;
+    padding: 0 0 12px;
+    text-align: left;
+}
+.social li a {
+}
+.social li a i {
+}
+.newsletter {
+    background: rgba(0, 0, 0, 0) url("../images/wave-bkgd.jpg") no-repeat scroll center -522px;
+    min-height: 300px;
+    position: relative;
+    width: 100%;
+}
+.newsletter-text {
+    color: black;
+    line-height: 2.5;
+    text-align: center;
+    width: 100%;
+}
+.img {
+    height: auto;
+    max-width: 100%;
+}
+.texts-style {
+    color: #fff;
+    font-family: PlayfairDisplay-Regular;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.5;
+    text-align: center;
+}
+.hand-crafted{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 50px;
+}
+.italic {
+	font-family: 'playfair_displayitalic';
+	font-size: 3.5rem;
+}
+.bold {
+	font-family: 'playfair_displaybold';
+	font-size: 3.5rem;
+}
+
+.texts-style h {
+  font-family:
+}
+.social a {
+    color: white;
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+}
+.social a:hover {
+    color: #b64036;
+    text-decoration: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .product-list ul li {
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 767px) {
+    .product-list ul li {
+        width: 100% !important;
+    }
+    .collection{
+        font-size: 17px !important;
+    }
+    .season{
+        font-size: 28px !important;
+        font-weight: 600;
+    }
+    .crafted{
+        font-size: 14px !important;
+    }
+    .texts-style{
+        font-size: 18px !important;
+    }
+    .paragraph{
+        font-size: 14px !important;
+    }
+    .p-one {
+        font-size: 14px !important;
+    }
+    .p-two {
+        font-size: 14px !important;
+    }
+    .p-two-two {
+        font-size: 14px !important;
+    }
+    .footer-address{
+        float: none;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-social {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+    .social li{
+        text-align: center;
+    }
+    .newsletter-text form {
+        margin: 0 auto;
+        max-width: 260px !important;
+        min-width: 200px;
+        position: relative;
+        width: auto;
+    }
+}
+.clearfix {
+    clear: both;
+}
+.p-one {
+    line-height: 21px;
+}
+.p-two {
+    padding: 20px 0;
+}
+.p-two a {
+    color: #fff;
+}
+.p-two-two {
+    color: #bbb;
+}
+.newsletter-text form {
+    margin: 0 auto;
+    max-width: 445px;
+    min-width: 200px;
+    position: relative;
+    width: auto;
+}
+.newsletter-text form input[type="text"] {
+    border: 0 none;
+    border-radius: 25px;
+    color: #bbb;
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 46px;
+    padding-left: 25px;
+    position: relative;
+    width: 100%;
+}
+.newsletter-text form input[type="submit"] {
+    background-color: #e2574c;
+    border: 0 none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 35px;
+    padding: 0 15px;
+    position: absolute;
+    right: -18px;
+    top: 5.45px;
+}
