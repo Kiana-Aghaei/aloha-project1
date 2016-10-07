@@ -2,10 +2,11 @@
 body {
     font-family: "Raleway-Light";
     font-size: 18px;
-    overflow-x: hidden !important;
 }
 .header {
-    overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .mostloved div {
     display: inline-block;
@@ -31,6 +32,34 @@ body {
     font-weight: 300;
     src: url("../fonts/raleway/transformed/trans/Raleway-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/transformed/trans/Raleway-Light.woff") format("woff"), url("../fonts/raleway/transformed/trans/Raleway-Light.ttf") format("truetype");
 }
+
+.nav-bar {
+  display: flex;
+  border-top: 1px solid #d7d7d7;
+  flex: 1 0 auto;
+  margin: 0 auto;
+  font-weight: bold;
+  justify-content: center;
+  padding: 0;
+}
+.nav-list {
+  margin: 10px;
+}
+.nav-list a:link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #e2574c;
+}
+.nav-list a:visited {
+  color: #e2574c;
+}
+.nav-list a:hover {
+  color: #b64036;
+}
+
 .banner {
     background-attachment: scroll, scroll;
     background-clip: border-box, border-box;
@@ -63,6 +92,7 @@ body {
     color: #ffffff;
     font-size: 30px;
 }
+
 .season {
     color: #ffffff;
     font-size: 70px;
@@ -75,25 +105,29 @@ section h1 {
     margin: 0 auto;
     max-width: 1240px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+
 }
 .logo {
-    float: left;
+
+  flex:0 1 25%;
 }
-.logo a {
-}
+
 .logo a img {
-    padding: 10px 0;
-    width: 170px;
+  width: 170px;
+  padding: 10px 0;
 }
 .cart {
-    float: right;
-    margin-top: 0;
+  flex:0 1 25%;
+  display: flex;
+  justify-content: flex-end;
 }
-.cart a {
-}
+
 .cart a img {
     padding: 10px 0;
     width: 65px;
+
 }
 .product-list {
     margin-bottom: 30px;
@@ -133,6 +167,9 @@ section h1 {
     border-top: 5px solid #fff;
     padding: 35px 0;
     width: 100%;
+
+
+
 }
 .paragraph {
     color: #fff;
@@ -143,11 +180,15 @@ section h1 {
     text-align: center;
 }
 .footer-address {
-    float: left;
+  display: flex;
+  justify-content: flex-start;
+
 }
 .footer-social {
-    display: inline-block;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+
+
     margin-right: 50px;
     text-align: right;
 }
@@ -157,7 +198,7 @@ section h1 {
 }
 .footer-text {
     color: #fff;
-    padding: 15px 0;
+
 }
 .social {
     list-style: outside none none;
@@ -167,10 +208,7 @@ section h1 {
     padding: 0 0 12px;
     text-align: left;
 }
-.social li a {
-}
-.social li a i {
-}
+
 .newsletter {
     background: rgba(0, 0, 0, 0) url("../images/wave-bkgd.jpg") no-repeat scroll center -522px;
     min-height: 300px;
@@ -217,7 +255,6 @@ section h1 {
 }
 .social a {
     color: white;
-    display: inline-block;
     text-align: right;
     text-decoration: none;
 }
@@ -227,49 +264,47 @@ section h1 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .product-list ul li {
-        width: 50% !important;
+        width: 50%;
     }
 }
 @media only screen and (max-width: 991px) {
 }
 @media only screen and (max-width: 767px) {
     .product-list ul li {
-        width: 100% !important;
+        width: 100%;
     }
     .collection{
-        font-size: 17px !important;
+        font-size: 17px;
     }
     .season{
-        font-size: 28px !important;
+        font-size: 28px;
         font-weight: 600;
     }
     .crafted{
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .texts-style{
-        font-size: 18px !important;
+        font-size: 18px;
     }
     .paragraph{
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .p-one {
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .p-two {
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .p-two-two {
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .footer-address{
-        float: none;
-        padding: 0;
+
         text-align: center;
-        width: 100%;
+
     }
     .footer-social {
-        display: block;
-        float: none;
+
         text-align: center;
     }
     .social li{
@@ -277,15 +312,13 @@ section h1 {
     }
     .newsletter-text form {
         margin: 0 auto;
-        max-width: 260px !important;
+        max-width: 260px;
         min-width: 200px;
         position: relative;
         width: auto;
     }
 }
-.clearfix {
-    clear: both;
-}
+
 .p-one {
     line-height: 21px;
 }
